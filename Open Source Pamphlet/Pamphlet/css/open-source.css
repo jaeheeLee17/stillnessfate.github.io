@@ -10,7 +10,8 @@
 body, ul, table, form{
 	margin:0;
 	padding:0;
-	overflow:hidden;
+	/* overflow:hidden; */
+    overflow:auto
 }
 
 .animated{
@@ -21,10 +22,10 @@ body, ul, table, form{
 	transition:margin-left 0.2s ease-in-out;
 }
 
-
 #frame{
 	height: 800px;
 	width: 100%;
+    min-width: 960px;
 	
 	overflow:hidden;
 	position: relative;
