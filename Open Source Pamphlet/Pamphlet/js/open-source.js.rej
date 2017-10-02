@@ -1,0 +1,9 @@
+diff a/Open Source Pamphlet/Pamphlet/js/open-source.js b/Open Source Pamphlet/Pamphlet/js/open-source.js	(rejected hunks)
+@@ -30,7 +30,6 @@
+ 
+ function loadPage(page) {
+ 	
+-	console.log('pages/page' + page + '.html'); 
+ 	$.ajax({url: 'pages/page' + page + '.html'}).
+ 		done(function(pageHtml) {
+ 			$('.sj-book .p' + page).html(pageHtml.replace('', ''));
